@@ -1,3 +1,10 @@
-let age = prompt('Mua mấy món', 0);
+let employeeId = prompt('Tên  nhân viên', 0);
 
-alert(`You are ${age} years old!`); // You are 100 years old!
+alert(`Mã nhân viên của bạn là ${employeeId}`); // Mã nhân viên của bạn là 100
+
+if (employeeId == 12) {
+    alert('Bạn là sếp');
+    
+} else {
+    alert('Bạn là nhân viên');
+}
